@@ -37,9 +37,6 @@ fn main() {
             };
             steps = steps + 1;
             print!("{}\n", current.initial);
-            if current.initial == "ZZZ" {
-                break 'outer;
-            }
         }
         if current.initial == "ZZZ" {
             break 'outer;
